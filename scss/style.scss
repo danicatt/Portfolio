@@ -2,11 +2,98 @@
   box-sizing: border-box;
 }
 
-.header-img {
-  background-color: #2b81af;
-  height:500px;
-}
+$bgColor: #011627;
+$fontColorLight: #DFEFF0;
+$fontColorTitles: #D43964;
 
 body {
-  background-color: red;
+  background-color: $bgColor;
+}
+
+// First header section
+.header-img {
+  background-color: #DFEFF0;
+  height:557px;
+}
+
+// Second section - about me
+.about-me-container {
+  height: 437px;
+  border-bottom: #F0CB48 solid 5px;
+
+  h1 {
+    padding: 20px;
+    color: $fontColorTitles;
+  }
+
+  p {
+    color: $fontColorLight;
+    margin: 10px;
+  }
+}
+
+.imgContainer img {
+  border-radius: 50%;
+  height: 250px;
+}
+
+//Third section - projects
+.main-1 {
+  padding: 20px;
+  height: 700px;
+  color: $fontColorTitles;
+}
+
+.main-title {
+  padding: 20px;
+}
+
+.project-container1 {
+  height: 250px;
+  background: url(../images/aboutMe.jpg) no-repeat;
+}
+
+.project-container2 {
+  height: 250px;
+  background: url(../images/mosaic-3394375_640.jpg) no-repeat;
+}
+
+.project-container3 {
+  height: 250px;
+  background: url(../images/painting-3135875_640.jpg) no-repeat;
+}
+
+.project-container4 {
+  height: 250px;
+  background: url(../images/peacock-feathers-3013486_640.jpg) no-repeat;
+}
+
+.project-container5 {
+  height: 250px;
+  background: url(../images/painting-3135875_640.jpg) no-repeat;
+}
+
+.project-container6 {
+  height: 250px;
+  background: url(../images/aboutMe.jpg) no-repeat;
+}
+
+// Fourth section - contact
+.section-2 {
+  padding: 20px;
+  height: 250px;
+  color: $fontColorTitles;
+
+}
+
+// Footer
+footer {
+  color: $fontColorTitles;
+  padding: 20px;
+  height: 100px;
+}
+
+.line {
+  margin-top: 75px;
+  border-bottom: #F0CB48 solid 5px;
 }
