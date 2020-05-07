@@ -10,10 +10,24 @@ body {
   background-color: $bgColor;
 }
 
-// First header section
-.header-img {
-  background-color: #DFEFF0;
-  height:557px;
+//// First header section
+
+.jumbotron {
+    background-image: url("../images/header-bg.jpg");
+    background-size: cover;
+    height: 557px;
+
+
+  h1 {
+    margin-top: 6%;
+    text-align: center;
+    color: #DFEFF0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #DFEFF0;
+  }
 }
 
 // Second section - about me
