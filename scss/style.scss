@@ -13,42 +13,55 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.navbar {
+.allNav {
   display: flex;
-  justify-content: left;
-  position: fixed;
-  z-index: 999;
-  padding-top: 20px;
 }
 
 .main-nav {
-  list-style-type: none;
-  padding: 0;
   display: none;
-  padding: 10px;
-  background-color: #ffe500;
+  position: fixed;
+  z-index: 999;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 6px 10px 6px 10px;
+  }
+
 }
 
 .active {
-  display: block;
+  display: flex;
+  margin-top: 55px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: flex;
+  position: fixed;
+  margin: 0 auto;
+  padding: 5px 8px 5px 8px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.navbar-toggle:hover {
+  background-color: green;
+
 }
 
 .nav-links {
   color: #D43964;
   font-family: 'Raleway Dots', cursive;
   font-weight: bold;
-}
 
-.navbar-toggle {
-  cursor: pointer;
-  display: block;
-  padding: 15px;
 }
 
 .menu {
-  height: 30px;
+  height: 40px;
   width: 35px;
-  position: fixed;
 }
 
   //// First header section
