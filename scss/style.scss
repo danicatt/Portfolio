@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Raleway+Dots&display=swap');
+
+$bgColor: #011627;
+$fontColorLight: #DFEFF0;
+$fontColorTitles: #D43964;
+
+body {
+  background-color: $bgColor;
+  font-family: 'Raleway', sans-serif;
+}
+
+.allNav {
+  display: flex;
+}
+
+.main-nav {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 6px 10px 6px 10px;
+  }
+
+}
+
+.active {
+  display: flex;
+  margin-top: 55px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: flex;
+  position: fixed;
+  margin: 0 auto;
+  padding: 5px 8px 5px 8px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-links {
+  color: #D43964;
+  font-family: 'Raleway Dots', cursive;
+  font-weight: bold;
+
+}
+
+.menu {
+  height: 40px;
+  width: 35px;
+}
+
+  //// First header section
+
+  .header {
+    background-image: url("../images/header-bg.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 620px;
+    border-top: #F0CB48 solid 2px;
+    border-bottom: #F0CB48 solid 2px;
+    padding: 0;
+
+
+    h1 {
+      margin-top: 18%;
+      text-align: center;
+      color: #011627;
+    }
+
+    h2 {
+      text-align: center;
+      color: #011627;
+      font-family: 'Raleway Dots', cursive;
+    }
+  }
+
+  // Second section - about me
+  .about-me-container {
+    height: 437px;
+    border-bottom: #F0CB48 solid 5px;
+
+    h1 {
+      padding: 20px;
+      color: $fontColorTitles;
+      font-family: 'Raleway Dots', cursive;
+    }
+
+    p {
+      color: $fontColorLight;
+      margin: 10px;
+    }
+  }
+
+  .imgContainer img {
+    border-radius: 50%;
+    height: 250px;
+  }
+
+  //Third section - projects
+  .main-1 {
+    padding: 20px;
+    height: 700px;
+    color: $fontColorTitles;
+    font-family: 'Raleway Dots', cursive;
+  }
+
+  .main-title {
+    padding: 20px;
+  }
+
+  .project-container1 {
+    height: 250px;
+    background: url(../images/aboutMe.jpg) no-repeat;
+  }
+
+  .project-container2 {
+    height: 250px;
+    background: url(../images/mosaic-3394375_640.jpg) no-repeat;
+  }
+
+  .project-container3 {
+    height: 250px;
+    background: url(../images/painting-3135875_640.jpg) no-repeat;
+  }
+
+  .project-container4 {
+    height: 250px;
+    background: url(../images/peacock-feathers-3013486_640.jpg) no-repeat;
+  }
+
+  .project-container5 {
+    height: 250px;
+    background: url(../images/painting-3135875_640.jpg) no-repeat;
+  }
+
+  .project-container6 {
+    height: 250px;
+    background: url(../images/aboutMe.jpg) no-repeat;
+  }
+
+  // Fourth section - contact
+  .section-2 {
+    padding: 20px;
+    height: 250px;
+    color: $fontColorTitles;
+    font-family: 'Raleway Dots', cursive;
+  }
+
+  // Footer
+  footer {
+    color: $fontColorTitles;
+    padding: 20px;
+    height: 100px;
+  }
+
+  .line {
+    margin-top: 75px;
+    border-bottom: #F0CB48 solid 5px;
+  }
+
