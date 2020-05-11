@@ -2,7 +2,7 @@ const mainNav = document.querySelector('.main-nav');
 const navBarToggle = document.querySelector('.navbar-toggle');
 
 navBarToggle.addEventListener('click', function () {
-    mainNav.classList.toggle('active');
+   mainNav.classList.toggle('active');
 });
 
 window.addEventListener('scroll', function () {
