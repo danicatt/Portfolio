@@ -84,6 +84,21 @@ body {
     }
   }
 
+.socialContainer {
+  text-align: center;
+}
+
+.socialIcons {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.socialIcons:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
   // Second section - about me
   .about-me-container {
     height: 437px;
