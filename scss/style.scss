@@ -128,43 +128,43 @@ body {
   }
 
   //Third section - projects
-  .main-1 {
+  .projectContainer {
     padding: 20px;
-    height: 700px;
     color: $fontColorTitles;
     font-family: 'Raleway Dots', cursive;
   }
 
   .main-title {
-    padding: 20px;
+    text-align: center;
+    padding-bottom: 2%;
   }
 
-  .project-container1 {
+  .project1 {
     height: 250px;
     background: url(../images/aboutMe.jpg) no-repeat;
   }
 
-  .project-container2 {
+  .project2 {
     height: 250px;
     background: url(../images/mosaic-3394375_640.jpg) no-repeat;
   }
 
-  .project-container3 {
+  .project3 {
     height: 250px;
     background: url(../images/painting-3135875_640.jpg) no-repeat;
   }
 
-  .project-container4 {
+  .project4 {
     height: 250px;
     background: url(../images/peacock-feathers-3013486_640.jpg) no-repeat;
   }
 
-  .project-container5 {
+  .project5 {
     height: 250px;
     background: url(../images/painting-3135875_640.jpg) no-repeat;
   }
 
-  .project-container6 {
+  .project6 {
     height: 250px;
     background: url(../images/aboutMe.jpg) no-repeat;
   }
