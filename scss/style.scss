@@ -141,7 +141,7 @@ body {
   .project1 {
     padding: 0;
   }
-  
+
   .image  {
     height: 250px;
     padding: 0;
@@ -178,28 +178,68 @@ body {
 
   .project2 {
     height: 250px;
-    background: url(../images/mosaic-3394375_640.jpg) no-repeat;
+    padding: 0;
   }
+
+.project2:hover .image {
+  opacity: 0.3;
+}
+
+.project2:hover .middle {
+  opacity: 1;
+}
 
   .project3 {
     height: 250px;
-    background: url(../images/painting-3135875_640.jpg) no-repeat;
+    padding: 0;
   }
+
+.project3:hover .image {
+  opacity: 0.3;
+}
+
+.project3:hover .middle {
+  opacity: 1;
+}
 
   .project4 {
     height: 250px;
-    background: url(../images/peacock-feathers-3013486_640.jpg) no-repeat;
+    padding: 0;
   }
+
+.project4:hover .image {
+  opacity: 0.3;
+}
+
+.project4:hover .middle {
+  opacity: 1;
+}
 
   .project5 {
     height: 250px;
-    background: url(../images/painting-3135875_640.jpg) no-repeat;
+    padding: 0;
   }
+
+.project5:hover .image {
+  opacity: 0.3;
+}
+
+.project5:hover .middle {
+  opacity: 1;
+}
 
   .project6 {
     height: 250px;
-    background: url(../images/aboutMe.jpg) no-repeat;
+    padding: 0;
   }
+
+.project6:hover .image {
+  opacity: 0.3;
+}
+
+.project6:hover .middle {
+  opacity: 1;
+}
 
   // Fourth section - contact
   .section-2 {
