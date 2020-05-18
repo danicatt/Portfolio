@@ -164,8 +164,8 @@ body {
 .text {
   background-color: #4CAF50;
   color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  padding: 14px 28px;
+  font-size: 15px;
 }
 
   .project1:hover .image {
@@ -244,9 +244,17 @@ body {
   // Fourth section - contact
   .section-2 {
     padding: 20px;
-    height: 250px;
     color: $fontColorTitles;
     font-family: 'Raleway Dots', cursive;
+
+    p {
+      text-align: center;
+      color: $fontColorLight;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 2%
+
+    }
   }
 
   // Footer
