@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Nixie+One&family=Ubuntu&display=swap');
 
 $bgColor: #011627;
 $fontColorLight: #DFEFF0;
 $fontColorTitles: #D43964;
+$titleFont: 'Nixie One', cursive;
 
 body {
   background-color: $bgColor;
-  font-family: 'Raleway', sans-serif;
 }
 
 .allNav {
@@ -23,6 +23,7 @@ body {
   z-index: 999;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  background-color: #011627;
 
   ul {
     list-style-type: none;
@@ -49,9 +50,8 @@ body {
 
 .nav-links {
   color: #D43964;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-
 }
 
 .menu {
@@ -62,12 +62,11 @@ body {
   //// First header section
 
   .header {
-    background-image: url("../images/header-bg.jpg");
-    background-position: right;
+    background-image: url("../images/volcanojpg.jpg");
     background-size: cover;
+    background-position: bottom;
     height: 620px;
-    border-top: #F0CB48 solid 2px;
-    border-bottom: #F0CB48 solid 2px;
+    border-bottom: #000000 solid 2px;
     padding: 0;
 
 
@@ -75,12 +74,15 @@ body {
       margin-top: 18%;
       text-align: center;
       color: #011627;
+      font-family: $titleFont;
+
     }
 
     h2 {
       text-align: center;
       color: #011627;
-      font-family: 'Raleway Dots', cursive;
+      font-family: 'Megrim', cursive;
+
     }
   }
 
@@ -101,18 +103,19 @@ body {
 
   // Second section - about me
   .about-me-container {
-    border-bottom: #F0CB48 solid 5px;
+    border-bottom: #f0cc98 solid 5px;
     margin-bottom: 15px;
 
     h2 {
       padding: 20px;
       color: $fontColorTitles;
-      font-family: 'Raleway Dots', cursive;
+      font-family: $titleFont;
       text-align: center;
     }
 
     p {
-      color: $fontColorLight;
+      color: #dfdfdf;
+      font-family: 'Ubuntu', sans-serif;
       padding: 2%
     }
   }
@@ -130,7 +133,7 @@ body {
   //Third section - projects
   .projectContainer {
     color: $fontColorTitles;
-    font-family: 'Raleway Dots', cursive;
+    font-family: $titleFont;
   }
 
   .main-title {
@@ -162,10 +165,10 @@ body {
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #f0cc98;
+  color: #000000;
   padding: 14px 28px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
   .project1:hover .image {
@@ -243,29 +246,28 @@ body {
 
   // Fourth section - contact
   .section-2 {
-    padding: 20px;
+    padding-top: 2%;
     color: $fontColorTitles;
-    font-family: 'Raleway Dots', cursive;
+    font-family: $titleFont;
 
     p {
       text-align: center;
-      color: $fontColorLight;
-      font-size: 24px;
-      font-weight: bold;
-      padding: 2%
-
+      color: #dfdfdf;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 20px;
     }
   }
 
   // Footer
   footer {
     color: $fontColorTitles;
-    padding: 20px;
+    padding: 2%;
     height: 100px;
+    text-align: center;
   }
 
   .line {
     margin-top: 75px;
-    border-bottom: #F0CB48 solid 5px;
+    border-bottom: #f0cc98 solid 5px;
   }
 

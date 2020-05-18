@@ -7,12 +7,12 @@ navBarToggle.addEventListener('click', function () {
 
 window.addEventListener('scroll', function () {
     if (window.scrollY >= 510) {
-        document.querySelector('.navbar-toggle').style.backgroundColor = '#ffe401';
-        document.querySelector('.main-nav').style.backgroundColor = '#ffe401';
+        navBarToggle.style.backgroundColor = '#bdc0d3';
+        mainNav.style.backgroundColor = '#bdc0d3';
     } else {
     if (window.scrollY <= 509) {
-        document.querySelector('.navbar-toggle').style.backgroundColor = 'transparent';
-        document.querySelector('.main-nav').style.backgroundColor = '#011627';
+        navBarToggle.style.backgroundColor = 'transparent';
+        mainNav.style.backgroundColor = '#011627';
     }
 }});
 
