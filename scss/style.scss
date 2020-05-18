@@ -19,72 +19,41 @@ body {
 
 .main-nav {
   display: none;
+  justify-content: flex-end;
+  width: 100%;
   position: fixed;
   z-index: 999;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #011627;
-
-  ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 6px 10px 6px 10px;
-  }
-
-}
-
-.active {
-  display: flex;
-  margin-top: 55px;
-}
-
-.navbar-toggle {
-  cursor: pointer;
-  display: flex;
-  position: fixed;
-  margin: 0 auto;
-  padding: 5px 8px 5px 8px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .nav-links {
-  color: #D43964;
+  color: #011627;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-}
-
-.menu {
-  height: 40px;
-  width: 35px;
+  padding: (6px 60px 6px 60px);
 }
 
   //// First header section
 
-  .header {
-    background-image: url("../images/volcanojpg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    height: 620px;
-    border-bottom: #000000 solid 2px;
-    padding: 0;
+.header {
+  background-image: url("../images/volcanojpg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 770px;
+  border-bottom: #000000 solid 2px;
+  padding: 0;
 
-
-    h1 {
-      margin-top: 18%;
-      text-align: center;
-      color: #011627;
-      font-family: $titleFont;
-
+  h1 {
+    margin-top: 18%;
+    text-align: center;
+    color: #011627;
+    font-family: $titleFont;
     }
 
-    h2 {
-      text-align: center;
-      color: #011627;
-      font-family: 'Megrim', cursive;
-
+  h2 {
+    text-align: center;
+    color: #011627;
+    font-family: 'Megrim', cursive;
     }
-  }
+}
 
 .socialContainer {
   text-align: center;
@@ -102,28 +71,28 @@ body {
 }
 
   // Second section - about me
-  .about-me-container {
-    border-bottom: #f0cc98 solid 5px;
-    margin-bottom: 15px;
+.about-me-container {
+  border-bottom: #f0cc98 solid 5px;
+  margin-bottom: 15px;
 
-    h2 {
-      padding: 20px;
-      color: $fontColorTitles;
-      font-family: $titleFont;
-      text-align: center;
-    }
-
-    p {
-      color: #dfdfdf;
-      font-family: 'Ubuntu', sans-serif;
-      padding: 2%
-    }
-  }
-
-  .imgContainer {
+  h2 {
+    padding: 20px;
+    color: $fontColorTitles;
+    font-family: $titleFont;
     text-align: center;
-    padding-bottom: 2%;
-  }
+    }
+
+  p {
+    color: #dfdfdf;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2%
+    }
+}
+
+.imgContainer {
+  text-align: center;
+  padding-bottom: 2%;
+}
 
   .imgContainer img {
     border-radius: 50%;
